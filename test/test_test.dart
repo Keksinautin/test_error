@@ -11,7 +11,7 @@ void main() {
 }
 
 class A {
-  int call() => 2;
+  int call() => 3;
 }
 
 class AMock extends Mock implements A {}
