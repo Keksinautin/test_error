@@ -10,7 +10,7 @@ dart_task:
   - test: -p firefox
   - test: -p dartium
     install_dartium: true
-  - dartanalyzer: --strong --fatal-warnings --fatal-infos --fatal-lints --fatal-hints --lints lib/ tool/ test/
+  - dartanalyzer: --strong --fatal-warnings --fatal-infos --fatal-lints --fatal-hints --lints test/
 #matrix:
 #  include:
 #    # Only validate formatting using the dev release
