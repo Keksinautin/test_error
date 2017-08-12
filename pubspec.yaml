@@ -1,0 +1,15 @@
+name: test_error
+version: 1.0.0
+environment:
+  sdk: '>=1.21.1 <2.0.0'
+
+dependencies:
+
+dev_dependencies:
+  test: ^0.12.15
+  mockito: ^2.0.0
+
+transformers:
+- test/pub_serve:
+    $include: test/**_test{.*,}.dart
+
